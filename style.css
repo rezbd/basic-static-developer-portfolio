@@ -7,22 +7,37 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
+
+p{
+    color:gray;
+}
+
 .orange-color{
     color: orange;
 }
 
-section{
+/* section{
+    display: flex;
+    margin-bottom: 150px;
+} */
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
 
 .half-width{
-    width: 50%;
+    width: 40%;
     padding-left: 5%;
+    float: left;
 }
 
+
+
 .half-width img{
-    width: 80%;
+    width: 100%;
 }
 
 a{
@@ -44,3 +59,34 @@ a{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item{
+    width: 40%;
+    padding-left: 3%;
+    box-shadow: 10px 10px 50px gray;
+    margin-left: 5%;
+    padding-bottom: 80px;
+    border-radius: 5px;
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    color: gray;
+    padding-bottom: 15px;
+}
+
